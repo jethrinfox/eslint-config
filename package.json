@@ -1,0 +1,46 @@
+{
+	"name": "@jethrinfox/eslint-config",
+	"version": "1.0.0",
+	"description": "This is a personal selection of configs for eslint and prettier to use in a React/NextJS project",
+	"main": "index.js",
+	"files": [
+		"LICENSE",
+		"README.md",
+		"index.js",
+		"lib"
+	],
+	"peerDependencies": {
+		"eslint": "^7.32.0",
+		"eslint-config-airbnb": "^18.2.1",
+		"eslint-plugin-import": "^2.24.0",
+		"eslint-plugin-jsx-a11y": "^6.4.1",
+		"eslint-plugin-react": "^7.24.0",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-prettier": "^3.4.0",
+		"eslint-plugin-simple-import-sort": "^7.0.0",
+		"@typescript-eslint/eslint-plugin": "^4.29.1",
+		"@typescript-eslint/parser": "^4.29.1",
+		"prettier": "^2.3.1"
+	},
+	"scripts": {
+		"lint": "eslint --ignore-path .gitignore .",
+		"lint:fix": "eslint --fix"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jethrinfox/eslint-config.git"
+	},
+	"keywords": [
+		"eslint",
+		"prettier",
+		"config",
+		"typescript"
+	],
+	"author": "jethrinfox <jethrinfox@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jethrinfox/eslint-config/issues"
+	},
+	"homepage": "https://github.com/jethrinfox/eslint-config#readme"
+}
