@@ -1,6 +1,6 @@
 {
 	"name": "@jethrinfox/eslint-config",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "This is a personal selection of configs for eslint and prettier to use in a React/NextJS project",
 	"main": "index.js",
 	"files": [
